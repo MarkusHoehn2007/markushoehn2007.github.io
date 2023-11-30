@@ -1,41 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Include Bootstrap from a CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Markus Hoehn - Home</title>
-</head>
-<body>
-    <header>
-        <!-- Use Bootstrap navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Markus Hoehn</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="coursework.html">Coursework</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main class="container">
-        <section class="intro">
-            <h1>Welcome to My Website</h1>
-            <p>I am Markus and this website is currently under construction.</p>
-        </section>
-    </main>
 
-    <!-- Include Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/me.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Markus Hoehn - Home</title>
+</head>
+
+<body>
+  <header>
+    <div class="centered-div">
+      <nav class="navbar navbar-expand navbar-light navbar-center">
+        <div class="container">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/courses.html">Course Work</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 image-container">
+          <img src="/images/me.png" alt="Your Image">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="centered-div">
+      <div class="typing">
+        <h2 class="text-uppercase text-nowrap">Markus H.</h2>
+      </div>
+    </div>
+  
+    <div class="centered-div2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-container">
+            <p class="text-wrap">markush@ksu.edu</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
